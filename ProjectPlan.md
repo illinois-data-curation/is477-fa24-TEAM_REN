@@ -27,11 +27,11 @@ This dataset is extremely comprehensive and consists of all relevant factors nee
 
 ### College Completion Data Set (Non-API Data from Kaggle.com)
 
-This data set specifically documents whether or not college was completed by different individuals. Among this data, it specifically outlines the different aspects of a university like the cohort sizes, states, cities, type of university (public or private), and whether or not it is an HBCU (historically Black college or University) as well as a flagship university. Analyzing the higher-education pathways of students that come from various socioeconomic backgrounds can help us understand how education (starting from elementary school onwards) changes based off of different socioeconomic factors.
+This data set consists of four subsets of data that have information ranging all the way from the college completion rates in various regions to the demographics of the graduates themselves.. Among this data, it specifically outlines the different aspects of a university like the cohort sizes, states, cities, type of university (public or private), and whether or not it is an HBCU (historically Black college or University) as well as a flagship university. We will specifically be looking at the demographics (race, gender, age) as well as the different perentages of students graduating on time from those respective universities and regions. Analyzing the higher-education pathways of students that come from various socioeconomic backgrounds can help us understand how education (starting from elementary school onwards) changes based off of different socioeconomic factors. It can also help shed light on how different regions compare timeline wise to the respective universities.
 
 **It is important to note that these two data sets are the initial data sets and more data may be required to complete a deeper analysis**
 
-## Timeline: Document the plan and timeline for implementing your project including who will complete each task.**
+## Timeline: Document the plan and timeline for implementing your project including who will complete each task.
 
 ### Week 1: Project Setup and Initial Data Acquisition
 
