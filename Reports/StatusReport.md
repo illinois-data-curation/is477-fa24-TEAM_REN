@@ -16,11 +16,11 @@ Evelina: Acquired the poverty and income data from the U.S. Census Bureau using 
 
 ### Week 2: Data Cleaning and Initial Exploration
 
-Natasha: Started integrating the datasets using Python and Pandas. Initial cleaning has involved handling missing values and ensuring consistent formatting across columns. Next, we will focus on merging datasets by common keys such as institution ID or state to prepare for analysis. Initial data profiling has been conducted to understand the distributions and detect any outliers. Summary statistics for key socioeconomic variables and graduation rates have been generated to inform further analysis.
+Richa: Started integrating the datasets using Python and Pandas. Initial cleaning has involved handling missing values and ensuring consistent formatting across columns. Next, we will focus on merging datasets by common keys such as institution ID or state to prepare for analysis. Initial data profiling has been conducted to understand the distributions and detect any outliers. Summary statistics for key socioeconomic variables and graduation rates have been generated to inform further analysis.
 
 ### Week 3: Data Integration and Initial Analysis
 
-Richa: In the process of setting up a Snakemake workflow to automate data cleaning, integration, and analysis. This will streamline reproducibility and ensure all steps can be executed seamlessly from raw data acquisition to final outputs. A primary challenge has been aligning data from different sources, particularly with variations in format and missing values. We have adjusted our integration approach to address these issues by standardizing column names for missing socioeconomic data where appropriate.
+Natasha: In the process of setting up a Snakemake workflow to automate data cleaning, integration, and analysis. This will streamline reproducibility and ensure all steps can be executed seamlessly from raw data acquisition to final outputs. A primary challenge has been aligning data from different sources, particularly with variations in format and missing values. We have adjusted our integration approach to address these issues by standardizing column names for missing socioeconomic data where appropriate.
 
 ### Week 4: Final Analysis, Visualization, and Report Preparation
 
