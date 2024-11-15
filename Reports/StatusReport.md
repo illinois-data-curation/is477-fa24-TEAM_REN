@@ -20,7 +20,7 @@ Natasha: Started integrating the datasets using Python and Pandas. Initial clean
 
 ### Week 3: Data Integration and Initial Analysis
 
-Richa: In the process of setting up a Snakemake workflow to automate data cleaning, integration, and analysis. This will streamline reproducibility and ensure all steps can be executed seamlessly from raw data acquisition to final outputs.
+Richa: In the process of setting up a Snakemake workflow to automate data cleaning, integration, and analysis. This will streamline reproducibility and ensure all steps can be executed seamlessly from raw data acquisition to final outputs. A primary challenge has been aligning data from different sources, particularly with variations in format and missing values. We have adjusted our integration approach to address these issues by standardizing column names for missing socioeconomic data where appropriate.
 
 ### Week 4: Final Analysis, Visualization, and Report Preparation
 
