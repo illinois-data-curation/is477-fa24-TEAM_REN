@@ -24,6 +24,8 @@ Natasha: In the process of setting up a Snakemake workflow to automate data clea
 
 ### Week 4: Final Analysis, Visualization, and Report Preparation
 
+Everyone: **Will begin once previous steps are completed**
+
 ## Updated Timeline
 - **Data Acquisition**: Completed
 - **Data Cleaning and Integration**: In progress (to be completed by Nov 20)
