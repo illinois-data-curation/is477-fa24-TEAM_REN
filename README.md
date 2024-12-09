@@ -207,11 +207,11 @@ python workflow.py
 The workflow will generate the following outputs:
 
 #### Cleaned Data:
-- The cleaned dataset will be saved in the `data/` folder:
+- The cleaned dataset will be saved in the `data` folder:
   - `cleaned_state_data.csv`
 
 #### Visualizations:
-- Visualizations will be saved in the `visualizations/` folder:
+- Visualizations will be saved in the `visualizations` folder:
   - `correlation_matrix.png`: Displays correlations between socioeconomic factors and graduation outcomes.
   - `graduation_rate_by_race_gender.png`: Shows graduation rates broken down by race and gender.
   - `graduation_rate_vs_income.png`: Scatter plot of graduation rate rank vs. median income by state.
@@ -225,10 +225,10 @@ The workflow will generate the following outputs:
 After running the workflow, verify the following:
 
 1. **Cleaned Data**:
-   - Ensure the file `cleaned_state_data.csv` exists in the `data/` folder and contains the expected columns and data.
+   - Ensure the file `cleaned_state_data.csv` exists in the `data` folder and contains the expected columns and data.
 
 2. **Visualizations**:
-   - Check the `visualizations/` folder for all six `.png` files.
+   - Check the `visualizations` folder for all six `.png` files.
    - Open each file to confirm the visualizations match the project specifications.
 
 ## References
