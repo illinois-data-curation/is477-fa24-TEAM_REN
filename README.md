@@ -187,8 +187,8 @@ To reproduce the results of this project, follow the steps below:
 ### 1. Clone the Repository
 Download the repository to your local machine:
 ```bash
-git clone <repository-url>
-cd <project-folder>
+git clone <https://github.com/illinois-data-curation/is477-fa24-TEAM_REN>
+cd <is477-fa24-TEAM_REN>
 ```
 ### 2. Set up the python environment
 ```bash
@@ -199,9 +199,9 @@ source env/bin/activate  # On Windows: env\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-### 4. Run the Workflow
+### 4. Run the Snakemake Workflow
 ```bash
-python workflow.py
+snakemake --cores 1
 ```
 ### 5. Outputs
 The workflow will generate the following outputs:
