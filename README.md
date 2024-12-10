@@ -4,7 +4,7 @@
 [Link to Archived Copy](#)
 
 ## Link to Box with Output Files
-[<https://uofi.box.com/s/9rvz4s02pyr8dbpzak3p0am0rg9mrnrl>](#)
+[Link to Box](https://uofi.box.com/s/9rvz4s02pyr8dbpzak3p0am0rg9mrnrl)
 
 ## Contributors
 - Natasha Nangia
@@ -163,26 +163,6 @@ To extend and improve upon this analysis, future research could focus on the fol
    - Machine learning techniques such as regression analysis or classification models could help identify high-risk groups or regions needing intervention.
    - For instance, predict which states or demographics are most at risk for low graduation rates given current poverty and income statistics.
 
-#### 4. Analyzing Broader Educational Metrics
-   - Expand beyond graduation rates to include standardized test scores, college enrollment rates, and long-term outcomes like employment or earnings.
-   - Investigate how socioeconomic factors influence these broader metrics to provide a more holistic understanding of educational disparities.
-
-#### 5. Regional and Policy Comparisons
-   - Compare how different regions (e.g., Northeast vs. South) allocate resources and how that affects outcomes.
-   - Conduct case studies on states that excel despite high poverty rates to identify effective policies or programs.
-
-#### 6. Qualitative Research Integration
-   - Complement quantitative data with qualitative insights by surveying or interviewing students, educators, and policymakers.
-   - This would provide a more nuanced understanding of barriers to education and potential solutions.
-
-### Potential Impact of Future Research
-By pursuing these directions, future work could:
-- Provide policymakers with actionable recommendations to reduce educational inequities.
-- Identify strategies for optimizing resource allocation in high-poverty regions.
-- Offer a roadmap for improving educational outcomes across diverse socioeconomic and geographic contexts.
-
-This project has laid the groundwork for understanding the interplay between socioeconomic factors and education, but further exploration is necessary to fully address these complex issues.
-
 ## Reproducing the Results
 
 To reproduce the results of this project, follow the steps below:
@@ -196,7 +176,7 @@ cd <is477-fa24-TEAM_REN>
 ### 2. Set up the python environment
 ```bash
 python3 -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+source env/bin/activate
 ```
 ### 3. Install Dependencies
 ```bash
