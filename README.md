@@ -15,13 +15,13 @@
 
 Throughout the United States, public school education exists to provide all children with a form of education despite the different socioeconomic classes they come from. However, this apparent equality of education among students across the US still struggles with inequitities as life within different socioeconomic brackets can still result in different educational outcomes for students. For example, access to private tutors and personalized help is not widely accessible to each student in the country. Additionally, regional factors can contribute to these differences due to inconsistencies in the standard of living among different regions of the United States.
 
-The goal of our project is to analyze the relationship between socioeconomic factors and education outcomes across different regions of the United States. By integrating data on socioeconomic indicators from the U.S. Census Bureau with education statistics from the National Center for Education Statistics (NCES), we aim to uncover patterns and correlations that may reveal how factors like income and employment impact educational achievement. 
+The goal of our project is to analyze the relationship between socioeconomic factors and education outcomes across different regions of the United States. By integrating data on socioeconomic indicators from the U.S. Census Bureau with education statistics from the National Center for Education Statistics (NCES), we aim to uncover patterns and correlations that may reveal how factors like income and employment impact educational achievements, specifically graduation rates from higher level education. 
 
 The analysis aims to answer the following research question(s):
 1. How do socioeconomic factors (e.g., income, poverty rates, employment) influence education outcomes (e.g., graduation rates, test scores) across different U.S. regions?
 2. Are there regional patterns in how socioeconomic factors correlate with educational achievements, and what might these patterns indicate about resource allocation or policy needs?
 
-The findings are supported by visualizations, including a correlation matrix and scatter plots.
+The findings are supported by multiple different visualizations, including, but not limited to, a correlation matrix and scatter plots.
 
 ## Data Profile
 
@@ -50,7 +50,7 @@ The dataset was originally compiled by **Jonathan Ortiz** and draws from two pri
 1. **NCES Integrated Postsecondary Education System (IPEDS)**
 2. **Voluntary System of Accountability’s Student Success and Progress Rate**
 
-Analyzing this data provides insights into how higher-education pathways vary based on socioeconomic backgrounds. Additionally, it highlights regional disparities and time-based comparisons for university completion rates.
+Analyzing this data provides insights into how higher-education pathways vary based on socioeconomic backgrounds. Additionally, it highlights regional disparities and time-based comparisons for university completion rates. The college completion data sets consisted of 4 subsets. Within those subsets of data, we used the state sector details and state sector grad subsets. Though there were 4 datasets, the other two datasets either consisted of data that was repeated in the utilized subsets or was not relevant to the goals of this analysis.
 
 **Source**: [Kaggle: College Completion Dataset](https://www.kaggle.com/)
 
@@ -59,7 +59,7 @@ Analyzing this data provides insights into how higher-education pathways vary ba
 ### Data Cleaning and Integration
 1. **Merging Data**:
    - The poverty dataset from ACS is joined with the college completion dataset using state-level identifiers (`stateid`).
-   - Relevant columns are extracted for analysis, focusing on socioeconomic and education-related variables.
+   - Relevant columns [Median_Income,  Poverty_Rate,  grad_rate_rank,  grad_100_rate,  grad_150_rate,  state_appr_value,  state_appr_rank, gender, race,  state_x] are extracted for analysis, focusing on socioeconomic, education, and regionally-related variables.
 
 2. **Licensing**:
    - The ACS dataset is publicly available via the U.S. Census Bureau.
@@ -130,7 +130,10 @@ Analyzing this data provides insights into how higher-education pathways vary ba
 - **Racial and Gender Disparities**: Graduation rates reveal inequities, particularly for Black and Hispanic students.
 - **Funding and Education**: Higher state appropriations are loosely correlated with improved graduation rate ranks, suggesting the importance of resource allocation.
 
-These findings provide critical insights into how socioeconomic and demographic factors influence educational success, guiding potential policy interventions.
+These findings provide critical insights into how socioeconomic and demographic factors influence educational success, guiding potential policy interventions. As visualized through the charts and graphs, states that tend to have higher median incomes–which typically imply lower poverty rates– consistently demonstrated higher graduation rates from higher education. This could be due to the access to resources for students in higher income households and/or states.
+
+Additionally, the juxtaposition between race and educational outcomes was also analyzed. The results showcased that people of color (Black and Hispanic students) typically had lower graduation rates. This could be due to numerous reasons including, but not limited to, the historical and systematic issues that people of color have had to face within the United States. 
+
 
 ## Future Work
 
