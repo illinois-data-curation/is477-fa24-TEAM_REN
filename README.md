@@ -217,8 +217,41 @@ After running the workflow, verify the following:
    - Check the `visualizations` folder for all six `.png` files.
    - Open each file to confirm the visualizations match the project specifications.
 
-## References
+## Manual Steps
 
+**Step 1:** Data Acquisition: 
+   A. To begin the project, we started off by finding relevant data sets that can help us answer our central project question. To do this,         we visited Kaggle.com to find both the API dataset and the Non-API dataset. After datasets, we briefly looked through them to ensure        that they had all neccessary information needed to answer our central question.
+   
+   B. We then uploaded this data into our `data` folder which we created to store all the data. To do this, we created a python file titled       `census_data_script.py` in our cloned repository on VS code. Within this python file. we utilized python, matplotlib, and other             python libraries to upload all of our datasets into csv files in the `data` folder.
+
+**Step 2:** Data Cleaning: 
+   A. To begin the data cleaning process, the first step was to determine which aspects of each dataset in our `data` folder was relevant         to this project. Ultimately, we determined that the state data along with our API socioeconomic data had the most crucial data to be        able to answer our question.
+
+   B. Then, in order to perform the data integration, we had to merge the datasets to have one finalized, clean dataset. To do this, we           utilized python pandas and performed the merge functions that exist within that library. We merged the datasets according to their          state based on the variable "stateid". We perfromed this merge in the python file in the cloned repository titled `data_cleaning.py`
+
+   C. After successfully merging the datasets, we then moved on to cleaning the dataset to only include the important columns for our             analysis. Out of the 10+ columns that existed in the original dataset, we ultimetely decided that [Median_Income,  Poverty_Rate,            grad_rate_rank,  grad_100_rate,  grad_150_rate,  state_appr_value,  state_appr_rank, gender, race,  state_x] were the columns that          were the most important and contained the most relevant information to answer our key question. To clean the dataset of all other we        utilized python pandas again and in the file `data_cleaning.py`, we specifically created a variable just for relevant columns where         we explicitly listed these columns. Then, we created a vairable called `final_cleaned` which took the merged dataset and only saved         the releavnt columns. 
+   
+   D. After this, we saved the cleaned dataset to a csv file in the `data` folder titled `cleaned_state_data.csv` in order to use this for        the integration.
+
+**Step 3:** Data Integration: 
+   A. After all the data cleaning had been completed, we moved on to data integration where we made various visualizations in order to            actually compare the data in our datasets. To do this, we first determined which types of visualizations we were going to create. We        settled on creating 5: correlation matrix, grouped bar plot to compare race and graduation rates, distribution of mean income and           poverty rates by state, graduation rates versus median income, and a boxplot of state appropriations by graduation rates. 
+
+   B. In order to implement all of these visualizations, within the data cleaning file 'data_cleaning.py`, we utilized matplotlib and             seaborn as python librarires to help create visualizations. We went through each visualization type to determine what information           from the dataset the visualization would require, what the figure should look like, and what the visualization should be called.            After writing the respective code to create these visualizations, we were able to run it and print out the 5 visualizations. 
+
+   C. After printing the 5 visualizations, we saved them as a specific name with a .png at the end. We then created a `visualizations`            folder where we we saved each figure to using the matplot function `plt.savefig`. The visualizations folder now consists of each            figure which we were able to use to complete our data anlysis. 
+
+**Step 4:** Creating the workflow: 
+   A. The next step for our project was creating the workflow. To do this, we created a Snakefile through snakemake which essentially             automates our workflow to ensure that our data cleaning and integration processes can be reproduced seamlessly. This was done through       creating several rules which had inputs, outputs, and the shell. The inputs were the data sources, output were the file names that          the data belonged to, and the shell was the python file that runs to create that output. 
+
+   B. This step was critical in ensuring that our workflow was reproducible, therefore we also tested our workflow and Snakefile at this          point in the project to ensure that everything was running smoothly
+
+**Step 5:** Final documentation: 
+   A. Our final documentation consisted of numerous aspects. First, we ensured that we had had all required files including our past              reports, data, visualizations, Snakefile, and python scripts. Then, we ensured that our markdown and txt files such as                      `environment.md` and 'requirements.txt` were also explicitely in our repository. 
+
+   B. Finally, we created our `README.md` which outlines every aspect of our project, starting from our initial project questions and             overview, our data sources, our data analysis, the workflow and reproduction steps for our snakemake file, our manual steps, and            finally our references for the data.
+
+
+## References
 1. **American Community Survey (ACS):**  
    - U.S. Census Bureau. "American Community Survey (ACS)."  
    - Available at: [https://www.census.gov/programs-surveys/acs](https://www.census.gov/programs-surveys/acs).  
