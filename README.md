@@ -1,7 +1,7 @@
 # Socioeconomic Factors and Education Outcomes
 
 ## Link to Archival Record
-[Link to Archived Copy](#)
+[Link to Archived Copy](https://sandbox.zenodo.org/records/141346)
 
 ## Link to Box with Output Files
 [Link to Box](https://uofi.box.com/s/9rvz4s02pyr8dbpzak3p0am0rg9mrnrl)
