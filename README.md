@@ -263,10 +263,10 @@ After running the workflow, verify the following:
 - Contributed to the README.md file
 
 **Richa:**
-- Worked primarily on the data cleaning and integration
 - Created dataframes for each of the data sources and merged the data to clean it
 - Further cleaned data to only have relevant columns and also created all visualizations
 - Contributed to the README.md file
+- Assisted with documentation and visualization analysis as well as outlining manual steps
 
 **Natasha:**
 - Primarily created the workflow for the reproduction of the analysis
