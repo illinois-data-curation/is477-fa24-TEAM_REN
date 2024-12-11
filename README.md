@@ -255,6 +255,24 @@ After running the workflow, verify the following:
 
 - Finally, we created our `README.md` which outlines every aspect of our project, starting from our initial project questions and overview, our data sources, our data analysis, the workflow and reproduction steps for our snakemake file, our manual steps, and finally our references for the data.
 
+## Contributions
+**Evelina:**  
+- Created the census_data_script.py in order to add in all the data into the repository
+- Worked on creating the environment.md, .gitignore and requirements.txt for documentation as well as the Box and Zenodo submission
+- Contributed to the snakemake workflow and the Snakefile
+- Contributed to the README.md file
+
+**Richa:**
+- Worked primarily on the data cleaning and integration
+- Created dataframes for each of the data sources and merged the data to clean it
+- Further cleaned data to only have relevant columns and also created all visualizations
+- Contributed to the README.md file
+
+**Natasha:**
+- Primarily created the workflow for the reproduction of the analysis
+- Assisted with the cleaning and integration
+- Primary contributer to the README.md file and outlined all the steps for reproduction
+- Contributed to the sourcing and analysis for the data
 
 ## References
 1. **American Community Survey (ACS):**  
